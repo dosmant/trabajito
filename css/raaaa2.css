@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/1910225/pexels-photo-1910225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    color: #FFFFFF;
+}
+.portada {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background-image: url("../imagen/img.1.jpg");
+    background-size: contain;
+    background-position: center;
+    border-radius: 5%;
+}
+.boton{
+    margin: 120px auto 0px;
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+    background-image: url("../imagen/pngegg.png");
+    opacity: 1;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+}
+.boton.active{
+    background-image: url("../imagen/pngwing.com.png");
+    opacity: 1;
+}
